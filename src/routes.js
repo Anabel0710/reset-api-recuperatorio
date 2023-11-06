@@ -1,4 +1,6 @@
 import { Router } from 'express';
-import {alumnos} from 'controller.js';
+import {alumno} from './controller.js';
 
-exp
+export const router= Router();
+
+router.get('/alumnos', alumno.getAll);
