@@ -4,7 +4,7 @@ import {router} from './routes.js';
 
 const app = express();
 
-app.set('port', 3000);
+app.set('port', 3000);// Configurar el puerto en el que se ejecutará el servidor
 
 app.use(morgan('dev'));
 app.use(express.json());
